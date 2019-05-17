@@ -1,0 +1,124 @@
+.forms {
+  max-height: 215px;
+}
+
+.forms__items {
+  max-width: 430px;
+  max-height: 175px;
+}
+
+.forms__item {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.forms__item:nth-child(2n-1) {
+  margin-right: 25px;
+}
+
+.forms__title {
+  margin-bottom: 8px;
+  font-family: 'Open sans bold';
+  font-size: 14px;
+  color: #c9a131;
+}
+
+.forms__input {
+  width: 200px;
+  height: 36px;
+  padding: 10px 26px 10px 14px;
+  text-align: left;
+  font-family: 'Open sans';
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: -0.4px;
+  color: #848484;
+  border: 1px solid #c8c6c6;
+  outline: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.forms__input:focus {
+  border-color: #c9a131;
+}
+
+.forms__input--date {
+  padding-right: 10px;
+}
+
+.forms__input--date::-webkit-datetime-edit { /* скрываем текст */
+  visibility: hidden;
+}
+
+.forms__input--date::before { /* вставляем текст */
+  position: absolute;
+  content: "date *";
+  left: 15px;
+  top: 31px;
+  font-family: 'Open sans';
+  font-size: 16px;
+  font-style: italic;
+  color: #848484;
+}
+
+.forms__input--date:hover::before { /* скрывает текст при выборе даты*/
+  visibility: hidden;
+}
+
+.forms__input--date:hover::-webkit-datetime-edit {
+  visibility: visible;
+}
+
+.forms__input--date::after { /* вставляем иконку календаря */
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  right: 8px;
+  top: 31px;
+  background: url('../img/calendar.png') no-repeat;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.forms__input--date::-webkit-calendar-picker-indicator { /* скрываем дефолтн знак */
+  color: transparent;
+}
+
+.forms__input--number { /* убираем дефолтную стрелку*/
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-top: 5px;
+  padding-bottom: 6px;
+}
+
+.forms__item--number::after { /* стрелка */
+  position: absolute;
+  content: "∨";
+  width: 10px;
+  height: 10px;
+  right: 12px;
+  top: 31px;
+  color: #949494;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.forms__btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 7px;
+  padding: 9px 60px 11px;
+  text-align: center;
+  font-family: 'Open sans';
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #c9a131;
+  border: none;
+  overflow: hidden;
+  outline: none;
+}

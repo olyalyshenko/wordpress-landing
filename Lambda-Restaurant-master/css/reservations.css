@@ -1,0 +1,75 @@
+.reservations {
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  max-height: 710px;
+  margin: 0 auto;
+}
+
+.reservations__wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-height: 710px;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 100px 70px 103px 0;
+  box-sizing: border-box;
+}
+
+.reservations__image-items {
+  display: flex;
+  justify-content: space-between;
+  width: 570px;
+}
+
+.reservations__image-item {
+  display: block;
+  min-width: 270px;
+  min-height: 507px;
+}
+
+.reservations__article {
+  position: relative;
+  max-width: 430px;
+  padding-top: 5px;
+  max-width: 430px;
+  overflow: hidden;
+}
+
+.reservations__title {
+  margin-bottom: 74px;
+  text-align: center;
+  font-family: 'Yeseva one';
+  font-size: 36px;
+  line-height: 24px;
+  color: #d2a622;
+  white-space: nowrap;
+}
+
+.reservations__title::after {
+  position: absolute;
+  content: "";
+  width: 242px;
+  height: 25px;
+  top: 52px;
+  right: 97px;
+  background-image: url("../img/divider-gold.png");
+  background-repeat: no-repeat;
+}
+
+.reservations__text {
+  width: 430px;
+  max-height: 75px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 16px;
+  line-height: 24px;
+  color: #4c4c4c;
+  letter-spacing: -0.1px;
+}
+
+.reservations__form {
+  margin-top: 40px;
+}

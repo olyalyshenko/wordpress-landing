@@ -1,0 +1,85 @@
+.review {
+  position: relative;
+  max-width: 1600px;
+  height: 758px;
+  margin: 0 auto;
+  background-color: #191919; /* запасной фон */
+  background-image: url('../img/bg-reviews.png');
+  background-repeat: no-repeat;
+}
+
+.review__wrapper {
+  position: relative;
+  width: 770px;
+  margin: 0 auto;
+  padding: 100px 0;
+  box-sizing: border-box;
+}
+
+.review__article {
+  position: relative;
+  padding: 85px 70px 105px;
+  background-color: rgba(0, 0, 0, 0.7);
+  max-width: 630px; 
+  overflow: hidden;
+}
+
+.review__title {
+  margin-bottom: 67px;
+  text-align: center;
+  font-family: 'Yeseva one';
+  font-size: 36px;
+  line-height: 24px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.review__title::before {
+  position: absolute;
+  content: "“";
+  width: 32px;
+  height: 25px;
+  top: 184px;
+  left: 29px;
+  font-size: 68px;
+  font-family: "Georgia";
+  color: rgba(242, 244, 244, 0.471);
+  line-height: 0.469;
+}
+
+.review__title::after {
+  position: absolute;
+  content: "";
+  width: 247px;
+  height: 25px;
+  top: 133px;
+  left: 34.5%;
+  background-image: url("../img/divider-white.png");
+  background-repeat: no-repeat;
+}
+
+.review__text {
+  width: 630px;
+  max-height: 230px;
+  overflow: hidden;
+  margin-bottom: 34px;
+  text-align: center;
+  font-family: 'Gentium basic bold';
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #dde0df;
+}
+
+.review__cite {
+  display: block;
+  margin: 0 auto;
+  padding-left: 13px;
+  width: 170px;
+  font-family: 'Lato';
+  font-size: 17.5px;
+  font-style: normal;
+  color: #dde0df;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

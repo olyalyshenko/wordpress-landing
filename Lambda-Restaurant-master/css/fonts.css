@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Gentium basic bold';
+    src: url('../fonts/genbkbasb-webfont.woff2') format('woff2'),
+         url('../fonts/genbkbasb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open sans bold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open sans';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yeseva one';
+    src: url('../fonts/yesevaone-regular_v2-webfont.woff2') format('woff2'),
+         url('../fonts/yesevaone-regular_v2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

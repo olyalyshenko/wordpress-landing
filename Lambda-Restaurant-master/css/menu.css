@@ -1,0 +1,21 @@
+.menu {
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  max-height: 994px;
+  margin: 0 auto;
+}
+
+.menu__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  height: 994px;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 110px 60px 88px 56px;
+  box-sizing: border-box;
+}
